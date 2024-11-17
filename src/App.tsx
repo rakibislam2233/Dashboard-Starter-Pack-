@@ -11,7 +11,7 @@ const App = () => {
     <main>
       <SidebarProvider>
         <AppSidebar />
-        <main>
+        <main className="p-5">
           <SidebarTrigger />
           <Outlet />
         </main>

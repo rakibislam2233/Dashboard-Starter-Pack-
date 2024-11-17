@@ -22,26 +22,12 @@ export function AppSidebar() {
       <SidebarContent className="flex-1">
         {/* Main Navigation */}
         <SidebarGroup className="p-4">
-          <h3 className="mb-2 text-sm font-semibold text-gray-400">Main</h3>
           <ul className="space-y-2">
             <li className="flex items-center p-2 rounded-md">
               <Home className="mr-3 h-5 w-5" /> Dashboard
             </li>
             <li className="flex items-center p-2 rounded-md">
               <User className="mr-3 h-5 w-5" /> Profile
-            </li>
-          </ul>
-        </SidebarGroup>
-
-        {/* Settings */}
-        <SidebarGroup className="p-4">
-          <h3 className="mb-2 text-sm font-semibold text-gray-400">Settings</h3>
-          <ul className="space-y-2">
-            <li className="flex items-center p-2 rounded-md">
-              <Settings className="mr-3 h-5 w-5" /> Account Settings
-            </li>
-            <li className="flex items-center p-2 rounded-md">
-              <HelpCircle className="mr-3 h-5 w-5" /> Help Center
             </li>
           </ul>
         </SidebarGroup>
